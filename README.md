@@ -1,4 +1,4 @@
-# BLEManager
+# BLEManager [![Build Status](https://travis-ci.org/iqvis/BLEManager-iOS.svg?branch=master)](https://travis-ci.org/iqvis/BLEManager-iOS)
 `BLEManager` is Bluetooth Low Energy wrapper that scans BLE devices and pair with the BLE device to discover their services, characteristics, and descriptors. It can be used to get RSSI value periodically and scan a specific vendor device by their service UUID.
 ## Requirements
 `BLEManager` works on BLE 4.0 following supported devices.
