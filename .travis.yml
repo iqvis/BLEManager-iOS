@@ -1,0 +1,6 @@
+language: objective-c  #1
+osx_image: xcode8.2
+xcode_sdk: iphonesimulator10.2
+xcode_project: BLE_Demo.xcodeproj
+xcode_scheme: BLE_Demo
+script: xcodebuild -project BLE_Demo.xcodeproj -target BLE_Demo -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
